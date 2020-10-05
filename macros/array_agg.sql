@@ -1,6 +1,6 @@
 {% macro array_agg(field_to_agg) -%}
 
-{{ adapter.dispatch("array_agg", packages=["hubspot"]) }}
+{{ adapter.dispatch('array_agg', packages=['hubspot']) }}
 
 {%- endmacro %}
 
